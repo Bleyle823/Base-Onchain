@@ -6,7 +6,7 @@ import OnchainkitSvg from 'src/svg/OnchainkitSvg';
 import { useAccount } from 'wagmi';
 import LoginButton from '../components/LoginButton';
 import SignupButton from '../components/SignupButton';
-import { Earn } from '@coinbase/onchainkit/earn';
+import { Earn } from 'src/components/Earn';
 import { VAULT_ADDRESSES } from 'src/config';
 
 export default function Page() {

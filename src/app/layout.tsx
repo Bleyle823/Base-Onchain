@@ -19,11 +19,11 @@ export const viewport = {
 };
 
 export const metadata: Metadata = {
-  title: 'Onchain App Template',
-  description: 'Built with OnchainKit',
+  title: 'Yield Farming on Base',
+  description: 'Earn yield on your crypto assets with secure vaults powered by OnchainKit',
   openGraph: {
-    title: 'Onchain App Template',
-    description: 'Built with OnchainKit',
+    title: 'Yield Farming on Base',
+    description: 'Earn yield on your crypto assets with secure vaults powered by OnchainKit',
     images: [`${NEXT_PUBLIC_URL}/vibes/vibes-19.png`],
   },
 };

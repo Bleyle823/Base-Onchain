@@ -1,5 +1,5 @@
 {
-  "name": "onchain-app-template",
+  "name": "base-yield-farming",
   "private": true,
   "version": "0.0.0",
   "scripts": {

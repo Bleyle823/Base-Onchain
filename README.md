@@ -5,11 +5,16 @@
   </picture>
 </p>
 
-# Onchain App Template
+# Base Yield Farming
 
-An Onchain App Template built with [OnchainKit](https://onchainkit.xyz), ready for deployment on Vercel.
+A yield farming application built with [OnchainKit](https://onchainkit.xyz) Earn component, enabling users to earn yield on their crypto assets through secure vaults on Base network.
 
-Demo: https://onchain-app-template.vercel.app
+## Features
+
+- 🌾 **Yield Farming**: Earn yield on your crypto assets with secure Morpho vaults
+- 🔗 **Base Network**: Built specifically for Base blockchain
+- 💼 **Wallet Integration**: Connect with Coinbase Wallet, MetaMask, and Rainbow Wallet
+- 🛡️ **Secure**: Powered by OnchainKit and audited smart contracts
 
 ## Quick Start
 
@@ -17,7 +22,7 @@ Demo: https://onchain-app-template.vercel.app
 
 Deploy directly to Vercel with one click:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fcoinbase%2Fonchain-app-template%23)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone)
 
 **Note:** Configure environment variables in Vercel project settings after deployment.
 

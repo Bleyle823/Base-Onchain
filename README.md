@@ -1,76 +1,39 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/coinbase/onchainkit/main/site/docs/public/logo/v0-27.png">
-    <img alt="OnchainKit logo vibes" src="https://raw.githubusercontent.com/coinbase/onchainkit/main/site/docs/public/logo/v0-27.png" width="auto">
-  </picture>
-</p>
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-onchain`]().
 
-# Base Yield Farming
 
-A yield farming application built with [OnchainKit](https://onchainkit.xyz) Earn component, enabling users to earn yield on their crypto assets through secure vaults on Base network.
+## Getting Started
 
-## Features
+First, install dependencies:
 
-- 🌾 **Yield Farming**: Earn yield on your crypto assets with secure Morpho vaults
-- 🔗 **Base Network**: Built specifically for Base blockchain
-- 💼 **Wallet Integration**: Connect with Coinbase Wallet, MetaMask, and Rainbow Wallet
-- 🛡️ **Secure**: Powered by OnchainKit and audited smart contracts
-
-## Quick Start
-
-### Deploy to Vercel
-
-Deploy directly to Vercel with one click:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone)
-
-**Note:** Configure environment variables in Vercel project settings after deployment.
-
-## Manual Setup
-
-### Environment Variables
-
-Configure a `.env` file with the following variables (reference `.env.local.example`):
-
-```sh
-# Obtain from https://portal.cdp.coinbase.com/products/onchainkit
-NEXT_PUBLIC_CDP_API_KEY="GET_FROM_COINBASE_DEVELOPER_PLATFORM"
-
-# Obtain from https://cloud.walletconnect.com
-NEXT_PUBLIC_WC_PROJECT_ID="GET_FROM_WALLET_CONNECT"
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
 ```
 
-You can obtain the API key from the [Coinbase Developer Portal's OnchainKit page](https://portal.cdp.coinbase.com/products/onchainkit). If you don't have an account, you will need to create one.
+Next, run the development server:
 
-For the Wallet Connector project ID, visit [Wallet Connect](https://cloud.walletconnect.com) and create/access your project.
-
-### Local Development
-
-```sh
-# Install bun
-curl -fsSL https://bun.sh/install | bash
-
-# Install dependencies
-bun i
-
-# Start development server
-bun run dev
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-## Resources
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- [OnchainKit Cursor Rules](https://cursor.directory/onchainkit)
-- [OnchainKit llms.txt](https://docs.base.org/builderkits/onchainkit/llms.txt)
-- [OnchainKit Documentation](https://onchainkit.xyz)
-- [OnchainKit Early Adopter Contract](https://github.com/neodaoist/onchainkit-early-adopter) by neodaoist [[X]](https://x.com/neodaoist)
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Learn More
 
-## Support
+To learn more about OnchainKit, see our [documentation](https://onchainkit.xyz/getting-started).
 
-For assistance, please contact us through:
-- [Discord](https://discord.gg/8gW3h6w5)
-- [GitHub Issues](https://github.com/coinbase/onchainkit/issues)
-- X: [@onchainkit](https://x.com/onchainkit), [@zizzamia](https://x.com/zizzamia), [@fkpxls](https://x.com/fkpxls)
+To learn more about Next.js, see the [Next.js documentation](https://nextjs.org/docs).
